@@ -1,0 +1,15 @@
+.login-page{
+    .lgn-left{
+        background-image: url('/images/static/login-pic.jpg');
+    }
+    .lgn-right{
+        background-color: #fff;
+        padding-right: 0;
+    }
+    .logo{
+        margin: 0 15px;
+        img{
+            max-width: 100%;
+        }
+    }
+}

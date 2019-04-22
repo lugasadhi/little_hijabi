@@ -1,0 +1,85 @@
+@import 'variables';
+
+.has-simple-footer{
+    padding-bottom: 40px;
+}
+
+//footer simple start
+.footer-simple{
+    margin-top: -45px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 15px 0 10px;
+    z-index: 9999;
+    position: relative;
+}
+//footer simple end
+
+//footer static start
+.footer-static{
+    font-family: $fontmenu;
+    background-color: $text;
+    padding:15vh 15px 10vh;
+    color: #fff;
+    position: relative;
+
+    .footer-img{
+        margin-bottom: 35px;
+        img{
+            width: 250px;
+        }
+    }
+    .footer-logo-text{
+        margin-bottom: 45px;
+        max-width:350px;
+        p{
+            font-size: 14px;
+        } 
+    }
+
+    .footer-cpy,
+    .footer-developer{
+        font-size: 14px;
+        color: rgba(255,255,255,.5);
+    }
+    .footer-contact{
+        h4{
+            font-size: 18px;
+        }
+        font-size: 14px;
+        .contact-detail{
+            margin-top: 15px;
+            .contacts{
+                max-width: 300px;
+            }
+        }
+    }
+
+    .footer-sosmed{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        a{
+            padding: 10px;
+            padding-bottom: 0;
+            transition: $transition;
+            color: #fff;
+            display: inline-block;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+//footer static end
+
+
+
+
+@media only screen and (max-width: 991px){
+    .footer-static{
+        margin-bottom: 50px;
+    }    
+}

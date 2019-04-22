@@ -1,0 +1,16 @@
+@import 'variables';
+// @import 'header';
+@import 'body';
+@import 'footer';
+
+@import 'view/login';
+@import 'view/home';
+
+
+body{
+    overflow-x: hidden;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}

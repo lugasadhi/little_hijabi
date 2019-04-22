@@ -1,0 +1,46 @@
+.home-page{
+    .top-headers{
+        position: relative;
+        overflow: hidden;
+    }
+    .bg-video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+
+        video{
+            height: 150%;
+            min-height: 60vw;
+        }
+        .video-fiter{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            background-repeat: repeat;
+        }
+
+        .bigas{
+            position: absolute;
+            z-index: 5;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            
+        }
+    }
+
+    .cloud{
+        margin-top: -120px;
+        height: 120px;
+        position: relative;
+        background-size: 100% !important;
+        
+    }
+    .content-under {
+        position: relative;
+    }
+}

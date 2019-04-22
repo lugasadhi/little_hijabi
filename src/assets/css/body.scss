@@ -1,0 +1,9 @@
+// .body-content-page{
+// }
+$header:50px;
+.has-header{
+    margin-top: $header;
+}
+.minus-header{
+    margin-top: -$header;
+}
